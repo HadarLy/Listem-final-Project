@@ -1,0 +1,41 @@
+{
+  "name": "Listem",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.0.7",
+    "aws-amplify": "^1.1.19",
+    "aws-amplify-react-native": "^2.1.7",
+    "prop-types": "latest",
+    "react": "16.6.3",
+    "react-native": "^0.58.6",
+    "react-native-action-button": "^2.8.5",
+    "react-native-contacts": "^4.0.1",
+    "react-native-date-picker": "^2.2.1",
+    "react-native-drawer-layout": "^2.0.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-localization": "^2.1.0",
+    "react-native-modal-datetime-picker": "^6.1.0",
+    "react-native-popup-menu": "^0.15.5",
+    "react-native-prompt": "^1.0.0",
+    "react-native-prompt-crossplatform": "^1.6.1",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.3.2",
+    "rne-modal-tooltip": "gist:b28c003d87c619674def0878473338a0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
